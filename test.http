@@ -1,0 +1,5 @@
+### GET - Test Ferry Operators
+GET http://localhost:3000/api/operators
+
+### GET - Test Ferry Routes
+GET http://localhost:3000/api/routes
