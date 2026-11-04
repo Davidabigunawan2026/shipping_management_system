@@ -16,3 +16,7 @@ Backend/dist/
 # OS files
 .DS_Store
 Thumbs.db
+
+# SQLite temporary files
+*.db-shm
+*.db-wal

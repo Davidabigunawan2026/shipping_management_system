@@ -19,7 +19,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.json({
     success: true,
-    message: 'Ferry Booking API is running!'
+    message: 'Shipping Management System API is running!'
   });
 });
 
@@ -30,5 +30,5 @@ app.use('/api/schedules', schedRoutes)
 
 
 app.listen(PORT, () => {
-  console.log(`Ferry Booking API running at http://localhost:${PORT}`);
+  console.log(`Shipping Management System API running at http://localhost:${PORT}`);
 });
